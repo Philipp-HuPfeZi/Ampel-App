@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Comptaible" content="IE-edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HuPfeZi Hof SoLaWi</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"/>
+</head>
+
+  <body>
+    <div class="tab">
+      <a href="https://www.hupfezihof.at/">
+        <img src="Illustrations/Hupfezihof Logo.jpg">
+      </a>
+      <button class="tablinks" onclick="open_Startseite(event, 'Startseite')" id="defaultOpen">Startseite</button>
+      <button class="tablinks" onclick="open_Gemüse(event, 'Gemüse')">Gemüse</button>
+      <button class="tablinks" onclick="open_Fleisch(event, 'Fleisch')">Fleisch/Fisch</button>
+      <button class="tablinks" onclick="open_Milchprodukte(event, 'Milchprodukte')">Milchprodukte</button>
+    </div>
+
+    <div id="Startseite" class="tabcontent">
+      <p>Diese App dient zur Übersicht, welche Produkte derzeit verfügbar sind.</p>
+      <p>Ernte:</p>
+      <p>Verfügbarkeit (Ampelsystem):</p>
+      <p>Bezahlung:</p>
+    </div>
+
+    <div id="Gemüse" class="tabcontent">
+      <img class="Images" src="Illustrations\Zucchini.jpg">
+      <link rel="stylesheet" type="text/css" href="Ampel_Gemüse\Ampel_Zucchini.css"/>
+      <span class="css-ampel_Zucchini"><span></span></span>
+
+      <img class="Images" src="Illustrations\Möhren.jpg">
+      <link rel="stylesheet" type="text/css" href="Ampel_Gemüse\Ampel_Möhren.css"/>
+      <span class="css-ampel_Möhren"><span></span></span>
+
+      <img class="Images" src="Illustrations\Fisolen.jpg">
+      <link rel="stylesheet" type="text/css" href="Ampel_Gemüse\Ampel_Fisolen.css"/>
+      <span class="css-ampel_Fisolen"><span></span></span>
+
+      <img class="Images_2" src="Illustrations\Zwiebeln.jpg">
+      <link rel="stylesheet" type="text/css" href="Ampel_Gemüse\Ampel_Zwiebeln.css"/>
+      <span class="css-ampel_Zwiebeln"><span></span></span>
+    </div>
+
+    <div id="Fleisch" class="tabcontent">
+      <img class="Images" src="Illustrations\Fleisch.jpg">
+      <link rel="stylesheet" type="text/css" href="Ampel_Fleisch\Ampel_Fleisch.css"/>
+      <span class="css-ampel_Fleisch"><span></span></span>
+    </div>
+    
+    <div id="Milchprodukte" class="tabcontent">
+      <img class="Images" src="Illustrations\Milchprodukte.jpg">
+      <link rel="stylesheet" type="text/css" href="Ampel_Milchprodukte\Ampel_Milchprodukte.css"/>
+      <span class="css-ampel_Milchprodukte"><span></span></span>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
